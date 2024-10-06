@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically */
+    background-color:  rgb(211, 208, 208);
+    
+} 
+
+.content-box {
+    display: flex;
+    background-color: white; /* White background */
+    border-radius: 10px; /* Optional: rounded corners */
+    overflow: hidden; /* Prevents overflow */
+}
+
+.left, .right {
+    width: 50%;
+    padding: 40px; /* Adjust padding for spacing */
+}
+
+.text {
+    margin-top: 20px; /* Adjust margin */
+}
+
+h3, p {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+p {
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.form-box {
+    margin-top: 20px; /* Adjust margin */
+}
+
+input, button {
+    display: block;
+    width: 300px;
+    margin: 15px; 
+    padding: 15px;
+    border: 1px solid rgb(63, 55, 55);
+    font-size: larger;
+}
+
+button {
+    width: auto;
+    margin-left: 245px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white; /* Add text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor on hover */
+    margin-top: 20px; /* Adjust margin */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>At Aga Khan, we committed to supporting your mental health and Well-being.
+                Our goal is to provide a welcoming space where individuals can find resources
+                to improve their emotional health and live more balanced lives. Whether you're
+                seeking guidance, community support, or beginning your wellbeing journey, we're
+                here to help you every step of the way. With a compassionate and wellness experts,
+                we aim to empower you with tools to build resilience, manage stress, and foster
+                inner peace.
+            </p>
+
+
+
+
+
+
+
+
+
+
+
+ <div class="banner-image1">
+        <div class="text-content1">
+            <h1>EMPOWERING HEALTH AND </br> WELLBEING FOR ALL</h1>
+            <p>Empower yourself to live a balanced fulfilled life.
+                Access tools, support, expert advice to nurture </br> your mental health.
+                whether you are seeking guidance, resources, or community, we're here
+                to</br> walk with you every step of the way.</p>
+                <div class="button">
+                    <a href="#">READ MORE</a>
+                </div>
+            
+        </div>
+    </div>

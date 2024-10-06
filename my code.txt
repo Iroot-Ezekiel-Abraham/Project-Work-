@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 90px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 5px; /* Space between cards */
+    padding: 20px;
+    width: calc(33.333% - 30px); /* 3 cards per row with margin adjustment */
+    transition: transform 0.2s;
+    height: 70vh;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.icon-wrapper, .icon-wrapper2, .icon-wrapper3 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.icon-wrapper img {
+    width: 90%; 
+    height: auto; 
+    border-radius: 8px;
+}
+
+.icon-wrapper2 img {
+    width: 80%; 
+    height: 34vh;
+    border-radius: 8px; 
+}
+
+.icon-wrapper3 img{
+    width: 90%; 
+    height: 34vh;
+    margin-left: 7px; 
+    border-radius: 8px;
+}
+
+
+h3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="container">
+        <div class="card">
+            <div class="icon-wrapper">
+                <img src="student-849821.jpg" alt="">
+            </div>
+            <h2>Online Therapy and Counseling</h2>
+            <p>Virtual therapy sessions with licensed professionals for one-on-one, group, or family counseling.</p>
+        </div>
+    
+        <div class="card">
+            <div class="icon-wrapper2">
+                <img src="startup-593304.jpg" alt="">
+            </div>
+            <h2>Mental Health Assessments</h2>
+            <p>Self-assessment tools to screen for issues like anxiety, depression, or stress.</p>
+        </div>
+    
+        <div class="card">
+            <div class="icon-wrapper3">
+                <img src="books-3864392.jpg" alt="">
+            </div>
+            <h2>Resource Library</h2>
+            <p>A wide array of content, such as articles, blogs, and videos on mental health wellness and self-care topics.</p>
+        </div>
+    
+        <div class="card">
+            <div class="icon-wrapper">
+                <img src="event-venue-1597531.jpg" alt="">  
+            </div>
+            <h2>Wellness Programs and Workshops</h2>
+            <p>On-demand workshops and programs focusing on personal development and stress management, including webinars and interactive courses.</p>
+        </div>
+    
+        <div class="card">
+            <div class="icon-wrapper">
+                <img src="woman-8563442.jpg" alt="">   
+            </div>
+            <h2>Mindfulness and Relaxation Techniques</h2>
+            <p>Mindfulness and relaxation techniques promote present-moment awareness and reduce stress. Practices like deep breathing and guided meditation help calm the mind and improve overall wellbeing.</p>
+        </div>
+    
+        <div class="card">
+            <div class="icon-wrapper">
+                <img src="knowledge-train-4507899.jpg" alt=""> 
+            </div>
+            <h2>Life Skills And Personal Development</h2>
+            <p>Offer courses or coaching on improving emotional intelligence, communication skills, goal setting, and problem solving aimed at enhancing personal growth.</p>
+        </div>
+    </div>
